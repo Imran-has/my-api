@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+
 interface Clientfetch {
     id:number;
     title: string;
@@ -39,7 +40,7 @@ const Clientdata = () => {
           <p>description: {`${fetch.description}`}</p>
           <p>category: {`${fetch.category}`}</p>
           <div><strong>image:</strong>
-          <img src={fetch.image} alt={fetch.title } className="w-full h-48 object-contain mt-3"></img>
+          <img src ={fetch.image } alt={fetch.title } className="w-full h-48 object-contain mt-3"></img>
           </div>
           {/* <p><strong>Rating:</strong>
           {fetch.rating.rate}({fetch.rating.count}reviews)
