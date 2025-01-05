@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
+
 interface Clientfetch {
     id:number;
     title: string;
@@ -8,8 +9,9 @@ interface Clientfetch {
     description:string;
     category:string;
     image:string;
-   rating:{rate:number;
-    count:number};
+  rating:{rate:number;
+    count:number
+  };
     
   }
   
@@ -49,6 +51,7 @@ const Clientdata = () => {
             <span className="text-yellow-500 font-bold">{fetch.rating.rate}⭐</span>
             <span className="text-sm text-gray-500 ml-2">({fetch.rating.count} reviews)</span>
           </div>
+       
         </div>
       ))}
     </div>

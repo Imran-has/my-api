@@ -26,7 +26,7 @@ return (
           <p className="text-red-600">type: {data.type}</p>
           <p className="text-yellow-400"> available: {data.available}</p>
           
-          
+       
         </div>
       ))}
     </div>

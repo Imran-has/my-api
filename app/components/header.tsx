@@ -2,11 +2,12 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div  className='  sm:bg-slate-400 bg-slate-600 md:
-    w-full'>
+    <header className='bg-slate-500'>
+    <div  className='container mx-auto flex items-center justify-center sm:p-5 '>
+    
        
-            
-       <ul className=' container  mx-auto flex justify-center items-center text-red-500 gap-4 font-semibold text-xl'>
+        <nav className='container mx-auto'>
+       <ul className='flex justify-center items-center sm: text-red-500 gap-4 font-semibold text-xl'>
        <h1 className='sm: font-bold text-red-500 md:black-500 mr-20 flex  p-7 text-2xl'> ShopNow</h1>
  
  
@@ -14,7 +15,9 @@ const Header = () => {
         <li>About</li>
         <li> Contact</li>
        </ul>
+       </nav>
     </div>
+    </header>
   )
 }
 

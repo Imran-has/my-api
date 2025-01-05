@@ -2,8 +2,8 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <footer className='bg-black text-white text-center p-7'>
-        <div className="flex gap-2  justify-center items-center">
+    <footer className='bg-black text-white text-center p-7 w-full'>
+        <div className="  container  mx-auto flex gap-2  justify-center items-center">
             <h1 className='text-white text-2xl font-bold'>created by imran hassan  </h1>
             <Link href="https://www.linkedin.com/in/imran-hassan-723b841b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedln</Link>
             <Link href="https://www.instagram.com/ihassankhan71?igsh=MTdxcmNldXNxeDlrNA==">Instagram</Link>
